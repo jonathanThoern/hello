@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
-	//"string"
+	"github.com/jonathanThoern/stringutil"
 )
 
 func main() {
-	fmt.Println("hello, world!")
+	//fmt.Println("hello, world!")
+	fmt.Println(stringutil.Reverse("!oG olleH"))
 }
